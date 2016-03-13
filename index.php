@@ -4,6 +4,12 @@
 <title>Test</title>
 </head>
 <body>
-	<?php echo "mandatory-initial-repo.github.io/"; ?>
+	<p>
+		<?php
+			include 'php/test.php';
+			global $test;
+			echo $test;
+		?>
+</p>
 </body>
 </html>
